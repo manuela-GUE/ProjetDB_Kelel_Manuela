@@ -1,5 +1,5 @@
 -- SCENARIO 1
--- 1. QUI CONSULTE LA NUIT ?
+-- 1. QUI CONSULTE AVANT LES REUNIONS ET AVANT AUTORISATION?
 SELECT Utilisateur_editeur, COUNT(*) as accès_nuit
 FROM Metadonnee_Acces 
 WHERE HOUR(Date_d_acces) BETWEEN 7 AND 9
